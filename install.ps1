@@ -170,7 +170,7 @@ Function Configure-Vermin() {
 }
 
 Function Configure-Virtualbox() {
-    $vboxPath = "C:\Program Files\Oracle\VirtualBox"
+    $vboxPath = "E:\Programz\VirtualBox"
     if (!(Test-Path $vboxPath)) {
         Write-Error "Unable to find VirtualBox. Install VirtualBox then re-Run the installation script..."
     }
